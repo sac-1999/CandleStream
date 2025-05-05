@@ -37,6 +37,7 @@ from datetime import datetime, timedelta
 stream = CandleStream()
 df = stream.fetch_data('NSE', 'TCS', 11536, datetime.today() - timedelta(100), datetime.today())
 print(df)
+```
 
 output :
 <img width="339" alt="image" src="https://github.com/user-attachments/assets/f601b1e5-6860-4f6e-84dd-a3c3d39ccd50" />
