@@ -26,3 +26,17 @@ INTRA_SECRET_KEY=487hcfwisy091748934-f5bfisekt37865c1-4d7fwisckuy75637284d-9dfiu
 INTRA_PIN=011843204
 INTRA_CLIENT_ID=njwh8235689
 ANGLETOKEN=fjksehkw5746598 
+
+
+Assign path to your .env in enviroment variable BROKER_ENV_FILE_PATH
+
+How to use it 
+
+from CandleStream import CandleStream 
+from datetime import datetime, timedelta
+stream = CandleStream()
+df = stream.fetch_data('NSE', 'TCS', 11536, datetime.today() - timedelta(100), datetime.today())
+print(df)
+
+output :
+<img width="339" alt="image" src="https://github.com/user-attachments/assets/f601b1e5-6860-4f6e-84dd-a3c3d39ccd50" />
