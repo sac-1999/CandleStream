@@ -3,4 +3,5 @@ setup.py
 Candlestream.egg-info/PKG-INFO
 Candlestream.egg-info/SOURCES.txt
 Candlestream.egg-info/dependency_links.txt
+Candlestream.egg-info/requires.txt
 Candlestream.egg-info/top_level.txt

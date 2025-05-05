@@ -1,18 +1,36 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: Candlestream
-Version: 1.0.0
+Version: 1.0.1
 Summary: Fastes historical candle data Loader
 Home-page: https://github.com/sac-1999/CandleStream
 Author: Sachin Sachan
 Author-email: <sachinsachan722@gmail.com>
 License: MIT
-Classifier: license :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Development Status :: 1 - Planning
 Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: Unix
 Classifier: Operating System :: MacOS :: MacOS X
 Classifier: Operating System :: Microsoft :: Windows
-Description-Content-Type: text/markdown
+Description-Content-Type: text/plain
+Requires-Dist: logzero==1.7.0
+Requires-Dist: mplfinance==0.12.10b0
+Requires-Dist: pandas_ta==0.3.14b0
+Requires-Dist: pyotp==2.8.0
+Requires-Dist: smartapi-python==1.4.8
+Requires-Dist: appdirs==1.4.4
+Requires-Dist: websocket==0.2.1
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
 
-
+Fastest historical candle data loader with caching system.
