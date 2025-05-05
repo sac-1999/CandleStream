@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Candlestream
+Version: 1.0.0
+Summary: Fastes historical candle data Loader
+Home-page: https://github.com/sac-1999/CandleStream
+Author: Sachin Sachan
+Author-email: <sachinsachan722@gmail.com>
+License: MIT
+Classifier: license :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
